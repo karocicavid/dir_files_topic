@@ -82,7 +82,7 @@ namespace ConsoleApp
             catch
             {
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("Если машина не заводится с первого раза,то может быть дело не в производителе.\nПросто погода плохая! ");
+                Console.WriteLine("При втором запуске производится выдача результатов! ");
                 Console.ResetColor();
             }
             Console.Read();
