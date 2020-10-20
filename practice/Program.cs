@@ -66,7 +66,7 @@ namespace ConsoleApp
                 int payment = Convert.ToInt32(index[i].payment);//стринг конвертируем в инт чтобы сложить
                 total += payment;
             }
-            Console.WriteLine(total);
+            Console.WriteLine($"We create new text file and notice here a total sum of payments - {total}");
             string total_string = Convert.ToString(total);// инт конвертируем в стринг
             string newfilepath = @"D:\test_client\new_test_client.txt";
 
